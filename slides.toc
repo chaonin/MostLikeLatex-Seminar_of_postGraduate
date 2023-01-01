@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.06pt}
+\select@language {english}
+\beamer@sectionintoc {1}{About LDPC Codes}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Literature Review}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Research aspects}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{The Decoding of LDPC Codes}{10}{0}{1}
+\beamer@sectionintoc {2}{The BP Decoding of LDPC Codes}{11}{0}{2}
+\beamer@sectionintoc {3}{Some Improved Results}{12}{0}{3}
+\beamer@sectionintoc {4}{The End}{13}{0}{4}

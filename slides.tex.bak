@@ -1,0 +1,108 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+  \usetheme{Warsaw}
+  \usefonttheme[onlylarge]{structuresmallcapsserif}
+  \usefonttheme[onlysmall]{structurebold}
+  \usecolortheme[overlystylish]{albatross}
+  \setbeamercovered{transparent}
+}
+
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{alltt}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{times}
+\usepackage{multimedia}
+\usepackage[T1]{fontenc}
+\newcommand{\xieti}{\textsl}
+\newcommand{\cuti}{\bfseries}
+\newcommand{\huati}{\mathcal}
+
+\title[]
+{The Belief Propagation Decoding of LDPC Codes}
+
+
+\author[]
+{Chaonian Guo}
+
+
+\date
+{Jan 9, 2009}
+
+\subject{Talks}
+
+\AtBeginSection[] {
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\AtBeginSubsection[] {
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{outline}
+  \tableofcontents
+\end{frame}
+
+% =======================================   Begin  =======================================%
+% =======================================  section1 =========================================%
+\section{About LDPC Codes}
+
+\subsection{Literature Review}
+\begin{frame}
+    \begin{block}{LDPC Codes}
+        A binary Low-Density Parity-Check code, specified by a parity check matrix
+        \xieti{H$_{(N-K)\times N}$} in \xieti{GF(2)}: the 0's are far more than the 1's.
+        \begin{itemize}
+            \item \xieti{N}: the linear block length of a codeword \xieti{c}
+            \item \xieti{K}: the length of the source \xieti{s}
+            \item \xieti{M}: the number of check bits ($M =$ N-K)
+            \item \xieti{R}: code rate = $\frac{K}{N}$
+            \item \xieti{G$_{K\times N}$}: generator matrix specified by \xieti{G$^T$H} = \xieti{0}
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Example}
+
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Regular&Irregular LDPC Codes}
+
+    \end{block}
+\end{frame}
+
+\subsection{Research aspects}
+\begin{frame}{Coding}
+\end{frame}
+
+\subsection{The Decoding of LDPC Codes}
+% =======================================  section2 =========================================%
+\section{The BP Decoding of LDPC Codes}
+% =======================================  section3 =========================================%
+\section{Some Improved Results}
+% =======================================  section4 =========================================%
+\section{The End}
+
+% =======================================   END  =========================================%
+\end{document}
